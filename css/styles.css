@@ -1,0 +1,184 @@
+@font-face {
+    font-family: 'Montserrat-Thin';
+    src: url('../font/Montserrat-Thin.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Montserrat-Light';
+    src: url('../font/Montserrat-Light.ttf') format('truetype');
+}
+
+.menu_lateral {
+    height: 100%;
+    width: 250px;
+    position: fixed; /* Stay in place */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #E3E2DF;
+    overflow-x: hidden; /* Disable horizontal scroll */
+}
+
+.cos_principal {
+    background-color: white;
+    height: 100%;
+    margin-left: 250px;
+    top: 0;
+    left: 0;
+    position: fixed;
+    overflow-x: hidden;
+}
+
+.seccio {
+    /*
+    width: -webkit-calc(100% - 160px);
+    width:    -moz-calc(100% - 160px);
+    width:         calc(100% - 160px);
+    */
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 80px;
+}
+
+.opcio_menu {
+    font-family: 'Montserrat-Light';
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.opcio_menu>a:link, .opcio_menu>a:visited {
+    color: #EE4C7C;
+}
+
+.opcio_menu>a:hover, .opcio_menu>a:active {
+    color: #9A1750;
+}
+
+.foto_perfil {
+    text-align:center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.foto_perfil>img {
+    border-radius: 50%;
+    margin:auto;
+    width: 150px;
+    height: 150px;
+}
+
+.titol {
+    color: #EE4C7C;
+    font-family: 'Montserrat-Thin';
+}
+
+.titol_nom {
+    font-size: 35px;
+}
+
+.titol_cognom {
+    font-size: 45px;
+}
+
+.titol_skill {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #9A1750;
+}
+
+.titol_skills {
+    text-align: left;
+    margin-bottom: 20px;
+    font-family: 'Montserrat-Thin';
+    color: #9A1750;
+    font-size: 30px;
+}
+
+.text {
+    color: black;
+    font-family: 'Montserrat-Light';
+}
+
+/*
+#nom {
+    margin-top: 80px;
+}
+
+#present {
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+*/
+
+.barra {
+    margin-top: 0px;
+    width: 100%;
+    height: 2px;
+    border: 1px;
+    border-style: solid;
+    border-color: #9A1750;
+    border-radius: 2px;
+}
+
+.barra>.progres {
+    height: inherit;
+    border-radius: inherit;
+    background-color: #9A1750;
+}
+
+.skill {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.skills {
+    border: 1px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #E3E2DF;
+}
+
+.separador {
+    margin-top: 25px;
+}
+
+.contenidor_skills {
+    box-sizing: border-box;
+    display: table;
+    width: 100%;
+    margin-top: 75px;
+}
+
+.subcontenidor_skills {
+    display: table-cell;
+}
+
+.subcontenidor_skills_esquerra {
+    padding-left: 80px;
+    width: 33%;
+}
+
+.subcontenidor_skills_centre {
+    padding-left: 40px;
+    padding-right: 40px;
+    width: 33%;
+}
+
+.subcontenidor_skills_dreta {
+    padding-right: 80px;
+    width: 33%;
+}
+
+.seccio_timeline {
+    border: 1px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #E3E2DF;
+    padding-left: 10px;
+    padding-right: 10px;
+}
