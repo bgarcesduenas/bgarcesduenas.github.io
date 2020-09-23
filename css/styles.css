@@ -136,6 +136,12 @@ a {
     margin-bottom: 20px;
 }
 
+.cos_skill {
+    font-family: 'Montserrat-Thin';
+    color: #9A1750;
+    font-size: 20px;
+}
+
 .skills {
     border: 1px;
     border-radius: 10px;
